@@ -1,0 +1,15 @@
+.footer {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color:  hsla(65, 26%, 91%, 0.37);
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 2px 20px black;
+    padding: 5px;
+}
+
+.footer__paragraph {
+    font-style: italic;
+    text-align: center;
+    font-weight: 700;
+}
