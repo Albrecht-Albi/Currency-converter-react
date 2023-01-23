@@ -1,4 +1,4 @@
-# To-do list
+# Currency-converter-react
 ![Currency-converter image](https://github.com/Albrecht-Albi/Currency-converter-react/blob/main/public/images/share.png)
 
 ## Hello everyone !
