@@ -5,20 +5,26 @@
 This is another React project. This time it's a simple currency calculator.
 
 ## Demo
-
+https://albrecht-albi.github.io/Currency-converter-react/
 
 ## How it's working
 ![Currency-converter gif](https://github.com/Albrecht-Albi/Currency-converter-react/blob/main/public/images/recordingCurrencyConverter.gif)
 
 ## Uset technologies
-
 HTML 5
+
 CSS Grid
+
 Normalize.css
+
 Media queries
+
 BEM convention
+
 JavaScript ES6+
+
 React
+
 Create-react-app
 
 ## Available Scripts
