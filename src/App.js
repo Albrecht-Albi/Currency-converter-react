@@ -1,6 +1,6 @@
 import { Form } from "./Form";
-import {Footer} from "./Footer";
-import {Container} from "./Container";
+import { Footer } from "./Footer";
+import { Container } from "./Container";
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <Container>
       <Form />
       <Footer description=
-      "Kurs walut z dnia 12.12.2022." />
+        "Kurs walut z dnia 12.12.2022." />
     </Container>
   );
 }
