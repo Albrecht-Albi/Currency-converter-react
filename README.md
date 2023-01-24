@@ -10,7 +10,7 @@ https://albrecht-albi.github.io/Currency-converter-react/
 ## How it's working
 ![Currency-converter gif](https://github.com/Albrecht-Albi/Currency-converter-react/blob/main/public/images/recordingCurrencyConverter.gif)
 
-## Uset technologies
+## Used technologies
 HTML 5
 
 CSS Grid
