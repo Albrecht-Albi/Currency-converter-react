@@ -7,8 +7,8 @@ function App() {
   return (
     <Container>
       <Form />
-      <Footer description=
-        "Kurs walut z dnia 12.12.2022." />
+      <Footer description="Kurs walut z dnia 12.12.2022."
+      />
     </Container>
   );
 }
