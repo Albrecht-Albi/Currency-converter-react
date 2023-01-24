@@ -10,7 +10,7 @@ export const Form = () => {
   const [result, setResult] = useState("");
 
   const calculateResult = (amount, currency) => {
-    const rate = currencies.find(({ shortName }) => shortName === currency).rate;
+    const { rate } = currencies.find(({ shortName }) => shortName === currency);
 
     setResult({
       initialAmount: +amount,
