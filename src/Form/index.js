@@ -1,4 +1,4 @@
-import "./style.css";
+import { StyledForm, Header, Label, Field } from "./styled";
 import { currencies } from "../currencies";
 import { useState } from "react";
 import { Result } from "./Result";
@@ -31,52 +31,50 @@ export const Form = () => {
   };
 
   return (
-    <form className="form" onSubmit={onFormSubmit}>
+    <StyledForm
+      onSubmit={onFormSubmit}>
       <Clock />
-      <h1 className="form__header">Kalkulator walut</h1>
+      <Header>
+        Kalkulator walut
+      </Header>
       <p>
-        <label>
-          <span className="form__label">
-            Kwota w PLN*:
-          </span>
-          <input
-            value={amount}
-            onChange={({ target }) => setAmount(target.value)}
-            className="form__field"
-            type="number"
-            min="0.01"
-            step="0.01"
-            required
-            placeholder="Wpisz kwotę w PLN"
-          />
-        </label>
+        <Label>
+          Kwota w PLN*:
+        </Label>
+        <Field
+          value={amount}
+          onChange={({ target }) => setAmount(target.value)}
+          type="number"
+          min="0.01"
+          step="0.01"
+          required
+          placeholder="Wpisz kwotę w PLN"
+        />
       </p>
       <p>
-        <label>
-          <span className="form__label">
-            Wybierz walutę*:
-          </span>
-          <select
-            value={currency}
-            className="form__field"
-            onChange={({ target }) => setCurrency(target.value)}
-          >
-            {currencies.map((currency => (
-              <option
-                key={currency.shortName}
-                value={currency.shortName}
-              >
-                {currency.longName}
-              </option>
-            )))}
-          </select>
-        </label>
+        <Label>
+          Wybierz walutę*:
+        </Label>
+        <Field as="select"
+          value={currency}
+          onChange={({ target }) => setCurrency(target.value)}
+        >
+          {currencies.map((currency => (
+            <option
+              key={currency.shortName}
+              value={currency.shortName}
+            >
+              {currency.longName}
+            </option>
+          )))}
+        </Field>
+      </p>
+      <p>
+      Pola wymagane oznaczone są *.
       </p>
       <Buttons onResetClick={onResetClick} />
       <Result result={result} />
-      <p>
-        Pola wymagane oznaczone są *.
-      </p>
-    </form>
+
+    </StyledForm>
   )
 };

@@ -1,19 +1,17 @@
-import "./style.css";
+import { StyledButtons, Button } from "./styled.js";
 
 export const Buttons = ({ onResetClick }) => (
-  <p className="form__buttons">
-    <button
-      className="form__button"
+  <StyledButtons>
+    <Button
       type="submit"
     >
       Przelicz
-    </button>
-    <button
+    </Button>
+    <Button
       onClick={onResetClick}
       type="reset"
-      className="form__button"
     >
       Wyczyść
-    </button>
-  </p>
+    </Button>
+  </StyledButtons>
 );
