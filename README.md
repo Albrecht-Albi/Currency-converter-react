@@ -13,19 +13,25 @@ https://albrecht-albi.github.io/Currency-converter-react/
 ## Used technologies
 HTML 5
 
-CSS Grid
+CSS (Grid, Flex, media queries)
 
 Normalize.css
-
-Media queries
-
-BEM convention
 
 JavaScript ES6+
 
 React
 
 Create-react-app
+
+ Styled-components
+
+ThemeProvider
+
+ React Hooks (useState, useState, useRef, Custom)
+
+Local storage
+
+ Markdown
 
 ## Available Scripts
 
