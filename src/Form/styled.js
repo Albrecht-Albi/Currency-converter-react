@@ -47,3 +47,15 @@ export const Field = styled.input`
     max-width: 250px;
     border-radius: 5px;
 `;
+
+export const Loading = styled.p`
+    color: ${({ theme }) => theme.color.silver};
+    `;
+
+export const Failure = styled.p`
+        color: ${({ theme }) => theme.color.white};
+    `;
+
+export const Info = styled.p`
+    color: ${({ theme }) => theme.color.silver};
+    `;

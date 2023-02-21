@@ -3,13 +3,13 @@ import { Footer } from "./Footer";
 import { Container } from "./Container/styled";
 
 function App() {
-  return (
-    <Container>
-      <Form />
-      <Footer description="Kurs walut z dnia 12.12.2022."
-      />
-    </Container>
-  );
+    return (
+        <Container>
+            <Form />
+            <Footer description="Kursy walut są aktualne na dzień odświarzenia kalkulatora"
+            />
+        </Container>
+    );
 }
 
 export default App;
