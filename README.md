@@ -5,7 +5,10 @@
 This is another React project. This time it's a simple currency calculator.
 
 ## Demo
-https://albrecht-albi.github.io/Currency-converter-react/
+
+
+[Visit my currency converter](https://albrecht-albi.github.io/Currency-converter-react/)
+
 
 ## How it's working
 ![Currency-converter gif](https://github.com/Albrecht-Albi/Currency-converter-react/blob/main/public/images/recordingCurrencyConverter.gif)
