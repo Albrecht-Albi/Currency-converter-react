@@ -4,10 +4,7 @@
 ## Hello everyone !
 This is another React project. This time it's a simple currency calculator.
 
-## Demo
-
-
-[Visit my currency converter](https://albrecht-albi.github.io/Currency-converter-react/)
+##  [Visit my currency converter](https://albrecht-albi.github.io/Currency-converter-react/)
 
 
 ## How it's working
