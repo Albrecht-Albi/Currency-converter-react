@@ -10,6 +10,9 @@ https://albrecht-albi.github.io/Currency-converter-react/
 ## How it's working
 ![Currency-converter gif](https://github.com/Albrecht-Albi/Currency-converter-react/blob/main/public/images/recordingCurrencyConverter.gif)
 
+## Description
+The application will calculate currency. Current exchange rates are taken from the European Central Bank.
+
 ## Used technologies
 HTML 5
 
@@ -32,6 +35,8 @@ ThemeProvider
 Local storage
 
  Markdown
+
+ API
 
 ## Available Scripts
 
