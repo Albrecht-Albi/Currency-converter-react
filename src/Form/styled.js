@@ -41,7 +41,7 @@ export const Label = styled.span`
 `;
 
 export const Field = styled.input`
-    border: 1px solid ${({ theme }) => theme.color.silver};
+    border: 1px solid ${({ theme }) => theme.color.black};
     padding: 10px;
     width: 100%;
     max-width: 250px;
@@ -50,10 +50,14 @@ export const Field = styled.input`
 
 export const Loading = styled.p`
     color: ${({ theme }) => theme.color.silver};
+    margin-top: 25%;
+    font-weight: 700;
     `;
 
 export const Failure = styled.p`
         color: ${({ theme }) => theme.color.white};
+        font-weight: 700;
+        margin-top: 25%;
     `;
 
 export const Info = styled.p`

@@ -9,8 +9,7 @@ export const theme = {
         scorpion: "#5a5656",
         mineShaft: "#201f1f",
         stromboli: "#2f6655",
-        jumbo: "#818085c0",
-        silver: "#ccc",
+        jumbo: "#cbcbcd82",
     },
     breakpoint: {
         mobileMax: 767,
