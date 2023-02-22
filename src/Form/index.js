@@ -4,7 +4,8 @@ import {
     Label,
     Field,
     Loading,
-    Failure
+    Failure,
+    Info
 } from "./styled";
 import { useRatesData } from "./useRatesData";
 import { useState, useRef } from "react";
@@ -95,9 +96,9 @@ export const Form = () => {
                                 ))};
                             </Field>
                         </p>
-                        <p>
+                        <Info>
                             Kursy walut aktualne na dzień: {ratesData.date}
-                        </p>
+                        </Info>
                         <Buttons onResetClick={onResetClick} />
                         <Result result={result} />
                     </>

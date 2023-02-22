@@ -49,17 +49,19 @@ export const Field = styled.input`
 `;
 
 export const Loading = styled.p`
-    color: ${({ theme }) => theme.color.silver};
+    color: ${({ theme }) => theme.color.black};
     margin-top: 25%;
     font-weight: 700;
     `;
 
 export const Failure = styled.p`
-        color: ${({ theme }) => theme.color.white};
+        color: ${({ theme }) => theme.color.crimson};
         font-weight: 700;
         margin-top: 25%;
     `;
 
 export const Info = styled.p`
-    color: ${({ theme }) => theme.color.silver};
+    color: ${({ theme }) => theme.color.black};
+    text-align: left;
+    margin-left: 69px;
     `;
