@@ -6,8 +6,7 @@ function App() {
     return (
         <Container>
             <Form />
-            <Footer description="Kursy walut są aktualne na dzień odświarzenia kalkulatora"
-            />
+            <Footer />
         </Container>
     );
 }

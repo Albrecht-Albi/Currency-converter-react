@@ -5,10 +5,9 @@ import {
     Field,
     Loading,
     Failure
-}
-    from "./styled";
+} from "./styled";
 import { useRatesData } from "./useRatesData";
-import { useState } from "react";
+import { useState,useRef } from "react";
 import { Result } from "./Result";
 import { Buttons } from "./Buttons";
 import { Date } from "./Date";
@@ -17,11 +16,13 @@ export const Form = () => {
     const [currency, setCurrency] = useState("EUR");
     const [amount, setAmount] = useState("");
     const [result, setResult] = useState("");
+    const inputRef = useRef(null);
 
     const ratesData = useRatesData();
 
     const calculateResult = (amount, currency) => {
         const rate = ratesData.rates[currency];
+        inputRef.current.focus();
 
         setResult({ sourceAmount: +amount, targetAmount: amount * rate, currency });
     };
@@ -62,7 +63,7 @@ export const Form = () => {
                         </Header>
                         <p>
                             <Label>
-                                Kwota w PLN*:
+                                Kwota w PLN: *
                             </Label>
                             <Field
                                 value={amount}
@@ -72,11 +73,12 @@ export const Form = () => {
                                 step="0.01"
                                 required
                                 placeholder="Wpisz kwotę w PLN"
+                                ref={inputRef}
                             />
                         </p>
                         <p>
                             <Label htmlFor="rate">
-                                Wybierz walutę*:
+                                Wybierz walutę:
                             </Label>
                             <Field as="select"
                                 value={currency}
@@ -93,7 +95,7 @@ export const Form = () => {
                             </Field>
                         </p>
                         <p>
-                            Pola wymagane oznaczone są *.
+                            Kursy walut aktualne na dzień: {ratesData.date}
                         </p>
                         <Buttons onResetClick={onResetClick} />
                         <Result result={result} />
