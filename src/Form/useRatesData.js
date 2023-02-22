@@ -8,7 +8,8 @@ export const useRatesData = () => {
     useEffect(() => {
         const fetchRates = async () => {
             try {
-                const response = await fetch("https://api.exchangerate.host/latest?base=PLN");
+                const responseURL = "https://api.exchangerate.host/latest?base=PLN";
+                const response = await fetch(responseURL);
 
                 if (!response.ok) {
                     throw new Error(response.statusText);
@@ -33,5 +34,5 @@ export const useRatesData = () => {
     }, []);
 
     return ratesData;
-    
+
 };
