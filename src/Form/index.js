@@ -79,7 +79,7 @@ export const Form = () => {
                             />
                         </p>
                         <p>
-                            <Label htmlFor="rate">
+                            <Label>
                                 Wybierz walutę:
                             </Label>
                             <Field as="select"
