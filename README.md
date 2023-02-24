@@ -1,48 +1,38 @@
-# Currency-converter-react
+# Currency Converter with Create React App
+
+## [Demo !! ](https://albrecht-albi.github.io/Currency-converter-react/)
+
 ![Currency-converter image](https://github.com/Albrecht-Albi/Currency-converter-react/blob/main/public/images/share.png)
-
-## Hello everyone !
-This is another React project. This time it's a simple currency calculator.
-
-##  [Visit my currency converter](https://albrecht-albi.github.io/Currency-converter-react/)
-
 
 ## How it's working
 ![Currency-converter gif](https://github.com/Albrecht-Albi/Currency-converter-react/blob/main/public/images/recordingCurrencyConverter.gif)
 
 ## Description
-The application will calculate currency. Current exchange rates are taken from the European Central Bank.
 
-## Used technologies
-HTML 5
+This is currency exchange web calculator that converts PLN to other currencies. Current exchange rates are downloaded from the European Central Bank from https://exchangerate.host/
+The application was created with the use of my current knowledge :)
 
-CSS (Grid, Flex, media queries)
+### Technologies used
+-	HTML
+-	CSS
+-	BEM
+-	JavaScript
+- Normalize
+-	ES6+ features
+- React
+- Git
+- Immutability
+- Npm and webpack
+- Axios
+- Downloading data from API
+- Promise, async/await
+- Error handling
 
-Normalize.css
-
-JavaScript ES6+
-
-React
-
-Create-react-app
-
- Styled-components
-
-ThemeProvider
-
- React Hooks (useState, useState, useRef, Custom)
-
-Local storage
-
- Markdown
-
- API
-
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -50,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm run build`
+### npm run build
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -60,7 +50,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### npm run eject
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
