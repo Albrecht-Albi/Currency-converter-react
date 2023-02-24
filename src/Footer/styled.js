@@ -7,11 +7,12 @@ export const Wrapper = styled.footer`
   color: ${({ theme }) => theme.color.wildSand};
   border-radius: 5px;
   box-shadow: 5px 2px 20px ${({ theme }) => theme.color.black};
-  padding: 5px;
+  padding: 10px;
 `;
 
 export const StyledFooter = styled.p`
   font-style: italic;
   text-align: center;
   font-weight: 700;
+  margin: 0;
 `;
