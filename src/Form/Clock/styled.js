@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledDate = styled.p`
+export const StyledClock = styled.p`
     text-align: right;
     font-family: monospace;
     color: ${({ theme }) => theme.color.black};
