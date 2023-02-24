@@ -11,7 +11,7 @@ import { useRatesData } from "./useRatesData";
 import { useState, useRef } from "react";
 import { Result } from "./Result";
 import { Buttons } from "./Buttons";
-import { Date } from "./Date";
+import { Clock } from "./Clock";
 
 export const Form = () => {
     const [currency, setCurrency] = useState("EUR");
@@ -41,7 +41,7 @@ export const Form = () => {
     return (
         <StyledForm
             onSubmit={onFormSubmit}>
-            <Date />
+            <Clock />
             {ratesData.state === "loading"
                 ? (
                     <Loading>
