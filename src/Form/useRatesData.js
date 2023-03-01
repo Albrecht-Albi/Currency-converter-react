@@ -6,7 +6,7 @@ export const useRatesData = () => {
         status: "loading",
     });
 
-    const url = "https://api.exchangerate.host/latest?base=PLN";
+    const url = "https://api.exchangerate.host/latest?base=pln";
 
     useEffect(() => {
         const getRatesData = async () => {
