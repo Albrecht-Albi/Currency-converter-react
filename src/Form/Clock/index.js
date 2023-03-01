@@ -5,7 +5,7 @@ export const Clock = () => {
     const date = useCurrentDate();
 
 const formatDate = (date) =>
-    date.toLocaleString("pl", {
+    date.toLocaleString(undefined, {
         weekday: "long",
         month: "long",
         day: "numeric",
