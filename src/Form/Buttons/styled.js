@@ -16,10 +16,10 @@ export const StyledButtons = styled.p`
 `;
 
 export const Button = styled.button`
-    background-color: ${({ theme }) => theme.color.pewter};
+    background-color: ${({ theme }) => theme.color.woodSmoke};
     max-width: 250px;
     width: 200px;
-    color: ${({ theme }) => theme.color.codGray};
+    color: ${({ theme }) => theme.color.white};
     cursor: pointer;
     font-weight: 700;
     padding: 10px;
@@ -29,7 +29,7 @@ export const Button = styled.button`
     transition: background 1s, transform 0.5s; 
   
   &:hover {
-    background-color: #bbc3c1;
+    background-color: ${({ theme }) => theme.color.nevada};
     transform: scale(1.05);
   }
 `;

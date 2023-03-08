@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const StyledForm = styled.form`
-    background-color: ${({ theme }) => theme.color.jumbo};
+    background-color: ${({ theme }) => theme.color.logCabin};
     padding: 10px;
     border-radius: 5px;
     margin: 20px 0;
     margin-bottom: 0px;
     text-align: center;
-    box-shadow: 2px 2px 20px ${({ theme }) => theme.color.black};
+    box-shadow: 2px 2px 20px ${({ theme }) => theme.color.wildSand};
     height: 450px;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -16,7 +16,7 @@ export const StyledForm = styled.form`
 `;
 
 export const Header = styled.h1`
-    background-color: ${({ theme }) => theme.color.jumbo};
+    background-color: ${({ theme }) => theme.color.logCabin};
     color: ${({ theme }) => theme.color.wildSand};
     font-size: 24px;
     max-width: 250px;
@@ -26,7 +26,7 @@ export const Header = styled.h1`
     font-weight: 700;
     text-align: center;
     display: inline-block;
-    box-shadow: 1px 1px 10px ${({ theme }) => theme.color.mineShaft}; 
+    box-shadow: 2px 2px 20px ${({ theme }) => theme.color.wildSand};
 `;
 
 export const Label = styled.span`
@@ -41,7 +41,7 @@ export const Label = styled.span`
 `;
 
 export const Field = styled.input`
-    border: 1px solid ${({ theme }) => theme.color.black};
+    border: 1px solid ${({ theme }) => theme.color.logCabin};
     padding: 10px;
     width: 100%;
     max-width: 250px;
@@ -49,7 +49,6 @@ export const Field = styled.input`
 `;
 
 export const Loading = styled.p`
-    color: ${({ theme }) => theme.color.black};
     margin-top: 25%;
     font-weight: 700;
     `;
@@ -61,7 +60,6 @@ export const Failure = styled.p`
     `;
 
 export const Info = styled.p`
-    color: ${({ theme }) => theme.color.black};
-    text-align: left;
+    text-align: center;
     margin-left: 69px;
     `;
