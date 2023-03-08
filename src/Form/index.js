@@ -27,8 +27,8 @@ export const Form = () => {
         inputRef.current.focus();
 
         setResult({
-            initialAmount: +amount,
-            finalAmount: amount * rate,
+            sourceAmount: +amount,
+            targetAmount: amount * rate,
             currency,
         });
     }

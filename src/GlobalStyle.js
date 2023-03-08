@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     font-family: 'Montserrat', sans-serif;
-    background-color: ${({ theme }) => theme.color.gallery};
+    background-color: ${({ theme }) => theme.color.black};
   }
 
   #root {
@@ -20,10 +20,11 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color: whitesmoke;
     background-image: url("${background}");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: white;
+    background-color: black;
   }
  `;
